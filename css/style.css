@@ -1,8 +1,4 @@
-p {
-    font-family: monospace;
-    font-size: 24px;
-    color: blue;
-}
+
 
 h1 {
     font-family: monospace;
@@ -18,7 +14,7 @@ h1 {
 }
 
 #test {
-    font-size: 400px;
+    font-size: 100px;
 }
 
 .class1 {
@@ -30,5 +26,27 @@ font-weight: 900;
 
 #test2 {
 font-style: italic;
-font-size: 200px;
+font-size: 100px;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h2,h3,h4 {
+    font-family: fantasy;
+    font-size: small;
+    font-weight: bolder;
+}
+
+article>p {
+    font-stretch: extra-expanded;
+    color: crimson;
+}
+
+main>h6 {
+    font-size-adjust: inherit;
+  font-stretch: wider;
+  
 }
