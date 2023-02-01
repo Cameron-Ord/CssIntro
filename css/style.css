@@ -10,11 +10,16 @@ h1 {
 .warning {
     font-size: 100px;
     color:rgb(0, 4, 255);
+    flex: auto;
+stroke: aqua;
+border-radius: 100mm;
 
 }
 
 #test {
     font-size: 100px;
+    border-color: blueviolet;
+    border-style: dotted;
 }
 
 .class1 {
@@ -22,16 +27,20 @@ h1 {
     color: black;
 font-style: italic;
 font-weight: 900;
+background-color: blue;
 }
 
 #test2 {
 font-style: italic;
 font-size: 100px;
+background-color: darkmagenta;
 }
+
 
 a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+font-kerning: none;
+font-weight: lighter;
 }
 
 h2,h3,h4 {
@@ -48,5 +57,20 @@ article>p {
 main>h6 {
     font-size-adjust: inherit;
   font-stretch: wider;
-  
+  text-overflow: ellipsis;
+  text-rendering: initial;
+}
+
+#test2+h1 {
+    font-size: 1000%;
+}
+
+
+.class1~a {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header #test {
+    border-color: aqua;
 }
